@@ -1,0 +1,69 @@
+/* PlaceListView.css */
+
+.place-list-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .place-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+  .place-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .place-item:last-child {
+    border-bottom: none;
+  }
+  
+  .place-input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .place-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .save-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px; /* Add some space above the save button */
+  }
+  
+  /* You can reuse the .delete-button class if it's defined in a global CSS file */
+  .delete-button {
+    background: transparent;
+    border: none;
+    color: rgb(233, 75, 75);
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  /* If you are using the react-icons package, you can target the SVG directly */
+  .delete-button svg {
+    fill: rgb(215, 78, 78);
+  }
+  

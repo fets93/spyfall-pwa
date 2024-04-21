@@ -1,0 +1,95 @@
+.App {
+    text-align: center;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  body {
+    font-family: "Nunito Sans", sans-serif;
+  
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+  }
+  
+  .player-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .player-item:last-child {
+    border-bottom: none;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #4ac3a3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .action-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .start-game-button {
+    background-color: #4fc984;
+  }
+  .delete-button {
+    background: transparent;
+    border: none;
+    color: rgb(184, 64, 64);
+    cursor: pointer;
+    padding: 8px; /* Adjust padding to suit your design */
+  }
+  
+  /* If you are using the react-icons package, you can target the SVG directly */
+  .delete-button svg {
+    fill: rgb(175, 53, 53); /* This changes the color of the icon */
+  }
+}
